@@ -23,6 +23,7 @@ const AddTask = ({ handleTaskAddition }) => {
         value={inpuData}
         className="add-task-input"
         type="text"
+        placeholder="Digite sua tarefa aqui."
       />
       <div className="add-task-button-container">
         <Button onClick={handleAddTaskClick}>Adicionar</Button>
